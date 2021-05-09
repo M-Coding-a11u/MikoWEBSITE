@@ -7,5 +7,5 @@ convertBtn.addEventListener("click", function() {
 })
 
 function sendUrl(URL) {
-    window.location.href = `http://localhost:4000/download?URL=${URL}`;
+    window.location.href = `http://localhost:4000/MikoBOTdownloader?URL=${URL}`;
 }
