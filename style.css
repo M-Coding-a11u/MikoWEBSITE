@@ -7,7 +7,7 @@
 }
 
 .container {
-    padding: 150px 10px;
+    padding: 150px 20px;
     background-color: #3a3a3a;
 }
 
@@ -57,7 +57,7 @@
     margin-top: 20px;
     background: rgba(255, 0, 0, 0.212);
     width: 45%;
-    height: 120px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
