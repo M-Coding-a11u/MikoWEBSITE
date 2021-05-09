@@ -8,7 +8,7 @@
 
 .container {
     padding: 150px 20px;
-    background-color: #424242;
+    background-color: #3a3a3a;
 }
 
 .container .countdownBx {
@@ -22,7 +22,7 @@
 .container .countdownBx h2 {
     text-align: center;
     font-size: 2em;
-    color: #fff;
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
     letter-spacing: 4px;
     font-weight: 800;
@@ -44,8 +44,8 @@
 }
 
 .container .countdownBx h2 span {
-    font-size: 4em;
-    font-weight: 800;
+    font-size: 75px;
+    font-weight: 1000;
 }
 
 .container .countdownBx h2 span i {
