@@ -16,7 +16,7 @@ app.listen(port, () => {
 app.get('/download', async (req, res) => {
     try {
     var URL = req.query.URL;
-    res.header('Content-Disposition', `attachment; filename="${createSerial(15)}.mp4`);
+    res.header('Content-Disposition', `attachment; filename="${createSerial(15)}.mp3`);
     ytdl(URL, {
         format: 'mp3'
     }).pipe(res);
