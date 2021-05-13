@@ -78,10 +78,6 @@
     text-transform: uppercase;
 }
 
-.countdown div#month:before {
-    content: 'Bulan';
-}
-
 .countdown div#day:before {
     content: 'Hari';
 }
